@@ -1,6 +1,7 @@
 import React from 'react'
 import WorkImg from '../images/workImg.jpeg'
 import WorkImg2 from '../images/realestate.jpg'
+import { Fade } from 'react-reveal'
 
 const Projects = () => {
    return (
@@ -8,10 +9,12 @@ const Projects = () => {
 
          {/* container */}
          <div className='max-w-[1000px] mx-auto p-4 w-full h-full flex flex-col justify-center'>
-            <div className='pb-8'>
-               <p className='text-4xl font-bold inline border-b-4 border-orange-600'>Projects</p>
-               <p className='py-6'>Checkout some of my recent projects</p>
-            </div>
+            <Fade right>
+               <div className='pb-8'>
+                  <p className='text-4xl font-bold inline border-b-4 border-orange-600'>Projects</p>
+                  <p className='py-6'>Checkout some of my recent projects</p>
+               </div>
+            </Fade>
 
             {/* cards */}
             <div
@@ -22,7 +25,7 @@ const Projects = () => {
                   className='shadow-lg shadow-yellow-300 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                   {/* hover effect */}
-                  <div className='opacity-0 group-hover:opacity-100'>
+                  <div className='opacity-0 group-hover:opacity-100 '>
                      <span className='text-2xl font-bold text-white tracking-wider'>
                         React Js Application
                      </span>
