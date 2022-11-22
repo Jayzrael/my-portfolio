@@ -14,7 +14,7 @@ const Navbar = () => {
    return (
       <>
          <div className='bg-black w-full fixed px-5 py-2 min-h-fit flex justify-between text-white'>
-            <div className='hover:cursor-pointer text-orange-500 text-xl font-bold'>Logo
+            <div className='hover:cursor-pointer text-orange-500 text-xl font-bold'>IO
             </div>
             <ul className='md:hidden flex hover:cursor-pointer pr-4'>
                <li className='px-4 hover:text-orange-500'>
@@ -80,19 +80,19 @@ const Navbar = () => {
             <div className='lg:hidden flex flex-col fixed  top-[35%] left-0'>
                <ul>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-blue-600'>
-                     <a href=""
+                     <a href="https://www.linkedin.com/in/israel-omole-ba3428236/"
                         className='flex justify-between items-center w-full text-gray-300'>Linkedin <FaLinkedin size={30} /> </a>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-slate-700'>
-                     <a href=""
+                     <a href="https://github.com/Jayzrael/"
                         className='flex justify-between items-center w-full text-gray-300'>Github <FaGithub size={30} /> </a>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-orange-700'>
-                     <a href=""
-                        className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} /> </a>
+                     <Link to="Contact" smooth={true} duration={500}
+                        className='flex justify-between items-center w-full text-gray-300 cursor-pointer'>Email <HiOutlineMail size={30} /> </Link>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-slate-500'>
-                     <a href=""
+                     <a href="/ISRAEL OMOLE'S CV (2).pdf" download
                         className='flex justify-between items-center w-full text-gray-300'>Resume <BsFillPersonLinesFill size={30} /> </a>
                   </li>
                </ul>

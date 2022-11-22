@@ -22,7 +22,12 @@ const About = () => {
                   </div>
                </Fade>
                <div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veniam praesentium possimus doloremque necessitatibus, dignissimos deleniti expedita optio earum impedit accusantium sed, hic tempora perferendis aut ex nulla veritatis dolor?</p>
+                  <p>Front End Developer with experience in the Fin-tech domains. Extensive experiences in HTML5, CSS3,
+                     SASS(SCSS),JavaScript and React Js. Proven track record in Analysis, Design, Development, Testing, and
+                     Implementation of Applications, Application Maintenance, and Project Deliverables. Detail-oriented with
+                     ability to own a project, follow complex instructions, diagnose and resolve issues. Possess problem-solving
+                     skills with a career objective to create stunning interactive websites that are visually appealing as well as
+                     user-friendly.</p>
                </div>
             </div>
          </div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import WorkImg from '../images/workImg.jpeg'
-import WorkImg2 from '../images/realestate.jpg'
+import WorkImg from '../images/riby-app.png'
+import WorkImg2 from '../images/resized-ticket-app.png'
 import { Fade } from 'react-reveal'
 
 const Projects = () => {
@@ -21,43 +21,43 @@ const Projects = () => {
                className='grid ml:grid-cols-2 mg:grid-cols-3 gap-4'>
 
                {/* cards container */}
-               <div style={{ backgroundImage: `url(${WorkImg})` }}
+               <div style={{ backgroundImage: `url(${WorkImg})`, backgroundSize: '300px 210px' }}
                   className='shadow-lg shadow-yellow-300 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                   {/* hover effect */}
                   <div className='opacity-0 group-hover:opacity-100 '>
-                     <span className='text-2xl font-bold text-white tracking-wider'>
-                        React Js Application
+                     <span className='text-xl font-bold text-white p-6 flex '>
+                        Fintech company Website Revamp
                      </span>
                      <div className='pt-8 text-center'>
-                        <a href="">
+                        <a href="https://riby.vercel.app/">
                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="">
+                        <a href="https://github.com/Jayzrael/riby">
                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                      </div>
                   </div>
                </div>
-               <div style={{ backgroundImage: `url(${WorkImg2})` }}
+               <div style={{ backgroundImage: `url(${WorkImg2})`, backgroundSize: '300px 210px' }}
                   className='shadow-lg shadow-cyan-300 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                   {/* hover effect */}
                   <div className='opacity-0 group-hover:opacity-100'>
-                     <span className='text-2xl font-bold text-white tracking-wider'>
-                        React Js Application
+                     <span className='flex text-xl font-bold text-white p-3'>
+                        CRM Dashboard for a Fintech company
                      </span>
                      <div className='pt-8 text-center'>
-                        <a href="">
+                        <a href="https://riby-ticketing-app.vercel.app/analytics">
                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="">
+                        <a href="https://github.com/Jayzrael/riby-ticketing-app">
                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                      </div>
                   </div>
                </div>
-               <div style={{ backgroundImage: `url(${WorkImg})` }}
+               <div style={{ backgroundImage: `url(${WorkImg})`, backgroundSize: '300px 210px' }}
                   className='shadow-lg shadow-yellow-300 group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                   {/* hover effect */}
